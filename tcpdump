@@ -1,0 +1,22 @@
+ip neigh show
+
+ip route  we can see default gateway
+
+tcpdump -n -e -t  arp
+
+tcpdump -n -e -t -i wlp2s0 arp
+
+systemd-resolve --statistics
+
+systemd-resolve --flush-caches
+
+tcpdump -n -e -t -i wlp2s0 arp
+
+
+tcpdump -n -e -t -vvv -i wlp2s0 port 53
+
+curl http://google.com
+
+tcpdump -n -e -t -vvv -i wlp2s0 port 80
+
+
